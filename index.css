@@ -1,0 +1,203 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    background-color: black;
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    margin-right: 20px;
+}
+.logo img{
+    width: 12%;
+}
+.logo input{
+    height: 25px;
+    background-color: gray !important;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+.logo input:focus{
+    background-color: white !important;
+}
+.logo input::placeholder{
+    color: white !important;
+}
+.logo input:focus::placeholder{
+    color: black !important;;
+}
+.nav-link{
+    width: 50%;
+    display: flex;
+}
+.nav-link a{
+    padding: 0px 8px ;
+    color: white ;
+}
+
+.icons{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.icons i{
+    color: white ;
+    padding: 0px 8px;
+}
+.icons img{
+    width: 15%;
+    border-radius: 50%;
+    padding: 0px 5px;
+}
+.sublinks{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px 0px;
+    margin-top: 15px;
+    margin-left: 290px;
+    position: sticky;
+    top: 0px;
+    background-color: white !important;
+    border-bottom: 1px solid lightgray !important;;
+}
+.sublinks a{
+    padding: 0px 8px;
+    color: grey;
+}
+.sublinks i{
+    padding: 0px 5px;
+}
+
+.section{
+display: flex;
+}
+
+.section .profile{
+    width: 350px;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px 0px 30px;
+    text-align: justify;;
+}
+.profile-img{
+    display: flex;
+}
+.profile-img img{
+    width: 250px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.about{
+margin: 10px 0px;
+}
+.button{
+    margin: 10px 0px;
+}
+.button button{
+    padding: 5px 90px
+}
+.follow i{
+margin: 0px 5px 0px 5px;
+}
+
+.main{
+    padding: 10px;
+}
+.heading{
+    display: flex;
+    padding: 10px 0px;
+    justify-content: space-between;
+}
+.repo-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box-1{
+    width: 450px;
+    padding: 10px;
+    margin: 8px 0px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+.box-head{
+    display: flex;;
+    justify-content: space-between;
+    margin: 5px 0px;
+}
+.box-head button{
+    padding: 1px 5px;
+    border-radius: 10px;
+    font-size: 12px;
+    outline: none;
+    border: 1px solid gray;
+    background-color: white;
+}
+.box-1 p{
+ margin: 5px 0px;
+ font-size: 12px;
+}
+.box-1 i{
+ margin: 10px 0px;
+ font-size: 12px;
+}
+
+.contribution{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+.table{
+text-align: left;
+border-spacing: 2px;
+}
+.table tr{
+    margin: 2px;
+}
+.table td{
+    padding: 0px 4px;
+    
+    background-color: lightgray;
+}
+.table .head td{
+    background-color: white !important;
+}
+
+.activity-div{
+    line-height: 24px;
+    padding: 10px 0px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0px;
+    border-top: 1px solid gainsboro;
+    padding: 30px 20px;
+}
+.footer a{
+    font-size: 12px;
+    color: blue !important;
+}
+
+
+
+
+
+
+
+
+
